@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com" />
+
+  <remote  name="cyanogen"
+           fetch="git://review.mfunz.com"
+           review="review.mfunz.com" />
+
+  <remote  name="local"
+           fetch="git://review.mfunz.com/"
+           review="review.mfunz.com" />
+
+  <remote  name="private"
+           fetch="ssh://git@github.com" />
+
+  <remote  name="mokee"
+           fetch=".."
+           review="review.mfunz.com" />
+
+  <default
+           revision="refs/heads/kk_mkt"
+           remote="mokee"
+           sync-c="true"
+           sync-j="4" />
+
+  <project path="development" name="MoKee/android_development" />
+  <project path="external/ir" name="MoKee/android_external_ir" />
+  <project path="external/koush/Superuser" name="MoKee/android_external_koush_Superuser" />
+  <project path="external/mokee/MoKeeHelper" name="MoKee/android_external_mokee_MoKeeHelper" />
+  <project path="external/mokee/xdelta3" name="MoKee/android_external_mokee_xdelta3" />
+  <project path="external/mokee/tools" name="MoKee/android_external_mokee_tools" revision="refs/heads/master"/>
+  <project path="external/wpa_supplicant_8" name="MoKee/android_external_wpa_supplicant_8" groups="pdk" />
+  <project path="external/wpa_supplicant_8_ti" name="MoKee/android_external_wpa_supplicant_8_ti" />
+  <project path="packages/apps/Apollo" name="MoKee/android_packages_apps_Apollo" />
+  <project path="packages/apps/Browser" name="MoKee/android_packages_apps_Browser" />
+  <project path="packages/apps/Calendar" name="MoKee/android_packages_apps_Calendar" />
+  <project path="packages/apps/Camera2" name="MoKee/android_packages_apps_Camera2" />
+  <project path="packages/apps/Contacts" name="MoKee/android_packages_apps_Contacts" />
+  <project path="packages/apps/ContactsCommon" name="MoKee/android_packages_apps_ContactsCommon" />
+  <project path="packages/apps/DeskClock" name="MoKee/android_packages_apps_DeskClock" />
+  <project path="packages/apps/Dialer" name="MoKee/android_packages_apps_Dialer" />
+  <project path="packages/apps/Gallery2" name="MoKee/android_packages_apps_Gallery2" />
+  <project path="packages/apps/InCallUI" name="MoKee/android_packages_apps_InCallUI" />
+  <project path="packages/apps/Launcher3" name="MoKee/android_packages_apps_Launcher3" />
+  <project path="packages/apps/LockClock" name="MoKee/android_packages_apps_LockClock" />
+  <project path="packages/apps/Mms" name="MoKee/android_packages_apps_Mms" />
+  <project path="packages/apps/MoKeeGenius" name="MoKee/android_packages_apps_MoKeeGenius" />
+  <project path="packages/apps/MoKeeLauncher" name="MoKee/android_packages_apps_MoKeeLauncher" />
+  <project path="packages/apps/MoKeeScreenRecorder" name="MoKee/android_packages_apps_MoKeeScreenRecorder" />
+  <project path="packages/apps/MoKeeSetupWizard" name="MoKee/android_packages_apps_MoKeeSetupWizard" />
+  <project path="packages/apps/Notepad" name="MoKee/android_packages_apps_Notepad" />
+  <project path="packages/apps/PackageInstaller" name="MoKee/android_packages_apps_PackageInstaller" />
+  <project path="packages/apps/QuickSearchBox" name="MoKee/android_packages_apps_QuickSearchBox" />
+  <project path="packages/apps/Settings" name="MoKee/android_packages_apps_Settings" />
+  <project path="packages/apps/Torch" name="MoKee/android_packages_apps_Torch" />
+  <project path="packages/providers/CalendarProvider" name="MoKee/android_packages_providers_CalendarProvider" />
+  <project path="packages/providers/DownloadProvider" name="MoKee/android_packages_providers_DownloadProvider" />
+  <project path="packages/services/Telephony" name="MoKee/android_packages_services_Telephony" />
+  <project path="frameworks/av" name="MoKee/android_frameworks_av" groups="pdk" />
+  <project path="frameworks/base" name="MoKee/android_frameworks_base" />
+  <project path="frameworks/opt/hardware" name="MoKee/android_frameworks_opt_hardware" />
+  <project path="frameworks/opt/telephony" name="MoKee/android_frameworks_opt_telephony" />
+  <project path="frameworks/support" name="MoKee/android_frameworks_support" />
+  <project path="system/core" name="MoKee/android_system_core" groups="pdk" />
+  <project path="art" name="MoKee/android_art" />
+  <project path="vendor/mk" name="MoKee/android_vendor_mk" />
+  <project path="vendor/tmobile/apps/ThemeChooser" name="MoKee/themes-platform-vendor-tmobile-apps-ThemeChooser" />
+
+
+</manifest>
